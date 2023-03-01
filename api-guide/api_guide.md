@@ -1466,7 +1466,7 @@ An HTTP __POST__ request is sent to your specified callback URL containing an `a
 | userReference                   | string | User reference (if set in initiate call)                                |
 | workflowExecution               | object | Possible values: <br>•	workflowExecution.id<br>• workflowExecution.href |
 | workflowExecution.id            | string | UUID of the workflow                                                    |
-| workflowExecution.href          | sting  | URL to retrieve workflow details                                        |
+| workflowExecution.href          | string | URL to retrieve workflow details                                        |
 | workflowExecution.definitionKey | string | Key of the workflow definition you executed<br>See [supported keys](#workflow-definition-keys) |
 | workflowExecution.status        | string | Possible values:<br>• PROCESSED<br>• SESSION_EXPIRED<br>• TOKEN_EXPIRED |
 | account                         | object | Possible values:<br>• account.id<br>• account.href                      |
